@@ -1,0 +1,194 @@
+[
+  {
+    "id": "iba",
+    "name": "Institute of Business Administration Karachi",
+    "type": "Public",
+    "field": "Business",
+    "tier": "S",
+    "city": "Karachi",
+    "programs": ["CS", "BBA", "AF", "ECON", "MATH", "SS", "DS"],
+    "entry_test": "IBA Aptitude Test",
+    "website": "https://www.iba.edu.pk"
+  },
+  {
+    "id": "bahria",
+    "name": "Bahria University",
+    "type": "Public",
+    "field": "General",
+    "tier": "B",
+    "city": "Islamabad",
+    "programs": ["CS", "SE", "AI", "IT", "EE", "ROB", "MBM", "BBA", "LAW", "PSY", "GEO"],
+    "entry_test": "CBT (Computer Based Test)",
+    "website": "https://www.bahria.edu.pk"
+  },
+  {
+    "id": "air",
+    "name": "Air University",
+    "type": "Public",
+    "field": "Engineering",
+    "tier": "B",
+    "city": "Islamabad",
+    "programs": ["CS", "SE", "AI", "CY", "EE", "ME", "MT", "BBA", "AVM", "GAM"],
+    "entry_test": "AU Entrance Test",
+    "website": "https://www.au.edu.pk"
+  },
+  {
+    "id": "uop",
+    "name": "University of Peshawar",
+    "type": "Public",
+    "field": "General",
+    "tier": "B",
+    "city": "Peshawar",
+    "programs": ["CS", "SE", "LAW", "ARTS", "ECON", "BIO", "ARC", "DM"],
+    "entry_test": "UOP Entry Test",
+    "website": "https://www.uop.edu.pk"
+  },
+  {
+    "id": "bzu",
+    "name": "Bahauddin Zakariya University",
+    "type": "Public",
+    "field": "General",
+    "tier": "B",
+    "city": "Multan",
+    "programs": ["CS", "EE", "ME", "ART", "BBA","BIO", "LAW", "ARTS", "AGRI", "BFA"],
+    "entry_test": "BZU Entry Test / USAT",
+    "website": "https://www.bzu.edu.pk"
+  },
+  {
+    "id": "gcu",
+    "name": "Government College University Lahore",
+    "type": "Public",
+    "field": "General",
+    "tier": "A",
+    "city": "Lahore",
+    "programs": ["CS", "SE", "AI", "EE", "PHY",  "ART", "MATH", "ECON", "ARTS", "FT", "GIS"],
+    "entry_test": "GCU Entrance Test",
+    "website": "https://www.gcu.edu.pk"
+  },
+  {
+    "id": "uet-lhr",
+    "name": "University of Engineering and Technology Lahore",
+    "type": "Public",
+    "field": "Engineering",
+    "tier": "A",
+    "city": "Lahore",
+    "programs": ["CS", "SE", "AI", "DS", "EE", "ME", "CH", "ARCH"],
+    "entry_test": "ECAT",
+    "website": "https://www.uet.edu.pk"
+  },
+  {
+    "id": "uaf",
+    "name": "University of Agriculture Faisalabad",
+    "type": "Public",
+    "field": "Agriculture",
+    "tier": "A",
+    "city": "Faisalabad",
+    "programs": ["CS", "SE", "AI", "BIO", "BBA", "AGRI", "ESE"],
+    "entry_test": "UAF Entry Test",
+    "website": "https://www.uaf.edu.pk"
+  },
+  {
+    "id": "lums",
+    "name": "LUMS",
+    "type": "Private",
+    "field": "General",
+    "tier": "S",
+    "city": "Lahore",
+    "programs": ["CS", "EE", "BBA", "ECON", "LAW", "MATH", "CLCA"],
+    "entry_test": "LUMS Common Admission Test (LCAT) / SAT",
+    "website": "https://www.lums.edu.pk"
+  },
+  {
+    "id": "pieas",
+    "name": "PIEAS",
+    "type": "Public",
+    "field": "Engineering",
+    "tier": "S",
+    "city": "Islamabad",
+    "programs": ["CS", "EE", "ME", "PHY", "CH"],
+    "entry_test": "PIEAS Written Test",
+    "website": "https://www.pieas.edu.pk"
+  },
+  {
+    "id": "comsats",
+    "name": "COMSATS University Islamabad",
+    "type": "Public",
+    "field": "CS",
+    "tier": "A",
+    "city": "Islamabad",
+    "programs": ["CS", "SE", "AI", "DS", "IT","MEDIA", "BIO", "CY", "EE", "ME", "BBA", "AF"],
+    "entry_test": "NTS (NAT)",
+    "website": "https://www.comsats.edu.pk"
+  },
+  {
+    "id": "ku",
+    "name": "University of Karachi",
+    "type": "Public",
+    "field": "General",
+    "tier": "A",
+    "city": "Karachi",
+    "programs": ["CS", "SE", "BBA", "ECON","MEDIA", "BIO", "MATH"],
+    "entry_test": "KU Entry Test",
+    "website": "https://www.uok.edu.pk"
+  },
+  {
+    "id": "pu",
+    "name": "University of the Punjab",
+    "type": "Public",
+    "field": "General",
+    "tier": "A",
+    "city": "Lahore",
+    "programs": ["CS", "SE", "AI", "DS", "IT", "EE", "BIO", "ART", "LAW", "MEDIA","BBA", "ENG" , "ECON", "MATH", "ARTS"],
+    "entry_test": "PU Admission Test",
+    "website": "https://www.pu.edu.pk"
+  },
+  {
+    "id": "nust",
+    "name": "NUST",
+    "type": "Public",
+    "field": "Engineering",
+    "tier": "S",
+    "city": "Islamabad",
+    "programs": ["CS", "SE", "AI", "IT", "DS", "CY", "EE", "ME" ,"MEDIA", "MT", "NA", "GI", "ROB"],
+    "entry_test": "NET (NUST Entry Test)",
+    "website": "https://www.nust.edu.pk"
+  },
+  {
+    "id": "aiou",
+    "name": "Allama Iqbal Open University",
+    "type": "Public",
+    "field": "Distance Learning",
+    "tier": "C",
+    "city": "Islamabad",
+    "programs": ["CS", "SE", "AI", "IT", "AF", "CY", "BBA",  "ART", "MEDIA", "ENG" ,"EDU", "LIS", "EC"],
+    "entry_test": "Departmental Test (for specific programs)",
+    "website": "https://www.aiou.edu.pk"
+  },
+  {
+    "id": "numl",
+    "name": "National University of Modern Languages",
+    "type": "Public",
+    "field": "General / Languages / Humanities",
+    "tier": "A",
+    "city": "Islamabad",
+    "programs": ["CS","SE", "DS", "AI", "EE","BBA", "AF","LAW", "ENG","PSY", "IR", "LANG"],
+    "languages": {
+      "title": "BS Language Studies",
+      "list": [
+        "Chinese",
+        "French",
+        "German",
+        "Korean",
+        "Arabic",
+        "Persian",
+        "Turkish",
+        "Japanese",
+        "Spanish",
+        "Russian",
+        "Urdu"
+      ]
+    },
+    "entry_test": "NUML Entrance Test",
+    "website": "https://www.numl.edu.pk"
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "code": "CS",
+    "full_form": "Computer Science",
+    "description": "Learning how computers think, how to write code, and how to solve problems using math and logic.",
+    "scope": "Extremely broad; you can work on mobile apps, website backends, cloud computing, or even space exploration software.",
+    "sectors": ["Software Development Companies", "Information Technology (IT) Departments", "Artificial Intelligence Research", "Freelance Programming"]
+  },
+  {
+    "code": "SE",
+    "full_form": "Software Engineering",
+    "description": "Focusing on the step-by-step process of building large, reliable software and making sure it works perfectly for users.",
+    "scope": "High demand for roles like systems architect, project manager, or quality assurance engineer in large tech firms.",
+    "sectors": ["Professional Software Houses", "Tech Startups", "System Maintenance Firms", "Corporate Tech Management"]
+  },
+  {
+    "code": "AI",
+    "full_form": "Artificial Intelligence",
+    "description": "Teaching machines how to learn from data, recognize faces, understand speech, and make smart decisions.",
+    "scope": "Growing rapidly in self-driving cars, smart assistants, and personalized medical diagnosis tools.",
+    "sectors": ["Artificial Intelligence (AI) Labs", "Robotic Automation", "Machine Learning Research", "Smart Tech Manufacturing"]
+  },
+  {
+    "code": "DS",
+    "full_form": "Data Science",
+    "description": "Looking at huge piles of information to find patterns and help businesses make better choices.",
+    "scope": "Highly valuable for predicting market trends, analyzing customer behavior, and improving business efficiency.",
+    "sectors": ["Banking and Finance", "Marketing Agencies", "Data Analytics Firms", "Government Planning"]
+  },
+  {
+    "code": "CY",
+    "full_form": "Cyber Security",
+    "description": "Protecting computers, networks, and private data from hackers and digital theft.",
+    "scope": "Critical for national defense, protecting bank accounts, and securing personal privacy online.",
+    "sectors": ["Network Security Firms", "Defense and Military", "Government Intelligence", "Corporate Security"]
+  },
+  {
+    "code": "IT",
+    "full_form": "Information Technology",
+    "description": "Setting up and managing the technology that businesses use every day, like servers and networks.",
+    "scope": "Essential for every modern office to keep their internet, databases, and computers running smoothly.",
+    "sectors": ["Corporate Information Technology (IT)", "Technical Support Services", "Network Administration", "Infrastructure Management"]
+  },
+  {
+    "code": "ROB",
+    "full_form": "Robotics & Intelligent Systems",
+    "description": "Designing and building robots that can help in factories, hospitals, or even homes.",
+    "scope": "Moving toward the future of automated warehouses and surgical robots in modern medicine.",
+    "sectors": ["Industrial Automation", "Mechanical Manufacturing", "Medical Robotics", "Research and Development"]
+  },
+  {
+    "code": "MATH",
+    "full_form": "Mathematical Sciences",
+    "description": "Using advanced numbers and formulas to solve real-world problems in science and money.",
+    "scope": "Strong path for becoming a data analyst, an actuary for insurance, or a researcher in physics.",
+    "sectors": ["Academic Research", "Financial Institutions", "Statistical Bureaus", "Cryptography and Security"]
+  },
+  {
+    "code": "AVM",
+    "full_form": "Aviation Management",
+    "description": "Learning how to run airports and airlines, focusing on safety, schedules, and staff.",
+    "scope": "Specialized roles in ground handling, flight operations, and airport terminal management.",
+    "sectors": ["International Airlines", "Domestic Airports", "Civil Aviation Authorities", "Air Cargo Logistics"]
+  },
+  {
+    "code": "SS",
+    "full_form": "Social Sciences",
+    "description": "Studying how people live together in societies and why they behave the way they do.",
+    "scope": "Useful for careers in community work, counseling, social research, or working for the government.",
+    "sectors": ["Non-Governmental Organizations (NGOs)", "Educational Institutions", "Social Welfare Departments", "Public Policy Groups"]
+  },
+  {
+    "code": "MBM",
+    "full_form": "Maritime Business & Management",
+    "description": "Managing the business side of ships, ports, and international sea trade.",
+    "scope": "Career paths in shipping logistics, port authority management, and sea cargo operations.",
+    "sectors": ["Sea Ports", "International Shipping Lines", "Logistics Companies", "Customs and Clearing"]
+  },
+  {
+    "code": "GEO",
+    "full_form": "Geology / Geophysics",
+    "description": "Studying the earth, rocks, and minerals to find natural resources like oil or gold.",
+    "scope": "Key role in finding new energy sources and studying earthquakes or environmental changes.",
+    "sectors": ["Oil and Gas Companies", "Mining and Minerals", "Environmental Consulting", "Geological Surveys"]
+  },
+  {
+    "code": "ME",
+    "full_form": "Mechanical Engineering",
+    "description": "Designing and building anything with moving parts, from car engines to giant turbines.",
+    "scope": "Diverse roles in the automotive industry, aerospace, and energy production plants.",
+    "sectors": ["Manufacturing Plants", "Heating, Ventilation, and Air Conditioning (HVAC)", "Automotive Design", "Energy Plants"]
+  },
+  {
+    "code": "CIVIL",
+    "full_form": "Civil Engineering",
+    "description": "Planning and building the things we use every day, like roads, bridges, and big buildings.",
+    "scope": "Always in demand for city planning, dam construction, and highway development projects.",
+    "sectors": ["Construction Companies", "Real Estate Development", "Urban Planning", "Public Works Departments"]
+  },
+  {
+    "code": "EE",
+    "full_form": "Electrical Engineering",
+    "description": "Working with electricity, power grids, and electronic devices to keep the world powered.",
+    "scope": "Opportunities in renewable energy, power distribution, and making smaller, faster electronics.",
+    "sectors": ["Power Generation Companies", "Telecommunications", "Electronic Design", "Renewable Energy (Solar/Wind)"]
+  },
+  {
+    "code": "ARCH",
+    "full_form": "Architecture",
+    "description": "Designing the look and structure of houses, offices, and parks so they are beautiful and safe.",
+    "scope": "Can specialize in sustainable building, interior design, or large-scale urban landscaping.",
+    "sectors": ["Architectural Design Firms", "Construction Industry", "Interior Design Studios", "Urban Development"]
+  },
+  {
+    "code": "CH",
+    "full_form": "Chemical Engineering",
+    "description": "Using chemistry to turn raw materials into useful products like gasoline, plastic, or medicine.",
+    "scope": "Vital for mass-producing safe food, fuel, and healthcare products in large factories.",
+    "sectors": ["Pharmaceutical Companies", "Fertilizer Plants", "Petrochemical Industries", "Food Processing"]
+  },
+  {
+    "code": "MT",
+    "full_form": "Mechatronics Engineering",
+    "description": "A mix of mechanical, electronic, and computer engineering to create smart machines.",
+    "scope": "Leading the way in creating automated assembly lines and high-tech consumer electronics.",
+    "sectors": ["Robotics Development", "Industrial Automation", "Consumer Electronics", "Smart Manufacturing"]
+  },
+  {
+    "code": "NA",
+    "full_form": "Naval Architecture",
+    "description": "Designing and building ships, boats, and offshore platforms that work on or under the water.",
+    "scope": "Niche demand in designing navy ships, luxury yachts, and cargo vessels.",
+    "sectors": ["Shipyards", "Navy and Defense", "Marine Engineering Firms", "Offshore Oil Platforms"]
+  },
+  {
+    "code": "GI",
+    "full_form": "Geoinformatics Engineering",
+    "description": "Using satellites and maps to track location data and manage land use.",
+    "scope": "Essential for digital maps, tracking climate change, and planning smart cities.",
+    "sectors": ["Geographic Information Systems (GIS) Firms", "Urban Planning", "Mapping and Surveying", "Disaster Management"]
+  },
+  {
+    "code": "ESE",
+    "full_form": "Energy Systems Engineering",
+    "description": "Finding better ways to produce energy, especially from solar, wind, and water.",
+    "scope": "High future demand as the world moves away from oil toward green, renewable energy.",
+    "sectors": ["Energy Production", "Solar and Wind Companies", "Environmental Agencies", "Power Utilities"]
+  },
+  {
+    "code": "MBBS",
+    "full_form": "Bachelor of Medicine, Bachelor of Surgery",
+    "description": "The study of the human body and how to treat sickness and injuries as a doctor.",
+    "scope": "Respected global career with paths to become a surgeon, a heart specialist, or a family doctor.",
+    "sectors": ["Government Hospitals", "Private Medical Clinics", "Medical Research Centers", "Healthcare Administration"]
+  },
+  {
+    "code": "BDS",
+    "full_form": "Bachelor of Dental Surgery",
+    "description": "Learning how to take care of teeth, gums, and everything related to oral health.",
+    "scope": "Steady demand for dentists in private practice, hospitals, and cosmetic dentistry.",
+    "sectors": ["Dental Clinics", "Specialized Dental Hospitals", "Oral Healthcare Products", "Teaching Hospitals"]
+  },
+  {
+  "code": "BSN",
+  "full_form": "Bachelor of Science in Nursing",
+  "description": "Learning how to care for patients, assist in medical treatment, and support healthcare services through professional nursing practices.",
+  "scope": "Strong demand in hospitals, healthcare centers, emergency care, and community health services.",
+  "sectors": ["Hospitals", "Clinics", "Community Healthcare Centers", "Teaching Hospitals"]
+  },
+  {
+    "code": "PHARM",
+    "full_form": "Doctor of Pharmacy",
+    "description": "Studying how medicines work and how to make sure patients get the right drugs.",
+    "scope": "Work in drug development, quality control in factories, or as a clinical pharmacist.",
+    "sectors": ["Pharmaceutical Industry", "Hospital Pharmacies", "Drug Regulatory Authorities", "Retail Pharmacy"]
+  },
+  {
+    "code": "DPT",
+    "full_form": "Doctor of Physical Therapy",
+    "description": "Helping people recover from pain or injury through physical exercises and therapy.",
+    "scope": "Growing demand in sports medicine, elderly care, and recovery after surgery.",
+    "sectors": ["Rehabilitation Centers", "Sports Clinics", "Hospitals", "Private Physiotherapy Practice"]
+  },
+  {
+    "code": "BIO",
+    "full_form": "Biotechnology",
+    "description": "Using biology and technology to solve problems like curing diseases or making better crops.",
+    "scope": "Exciting field for genetic research, vaccine development, and agricultural improvement.",
+    "sectors": ["Research Laboratories", "Pharmaceutical Companies", "Agricultural Research", "Bio-Tech Firms"]
+  },
+  {
+    "code": "MLT",
+    "full_form": "Medical Lab Technology",
+    "description": "Working behind the scenes in labs to test blood and tissue to find out what is making a patient sick.",
+    "scope": "Vital part of every hospital that ensures doctors have the right data to treat patients.",
+    "sectors": ["Diagnostic Laboratories", "Hospital Testing Units", "Blood Banks", "Pathology Centers"]
+  },
+  {
+    "code": "RAD",
+    "full_form": "Radiology",
+    "description": "Using machines like X-rays and Ultrasounds to see inside the body and diagnose problems.",
+    "scope": "Specialized roles in medical imaging, scanning, and assisting doctors with visual data.",
+    "sectors": ["Radiology Departments", "Diagnostic Imaging Centers", "Hospitals", "Cancer Treatment Centers"]
+  },
+  {
+    "code": "PH",
+    "full_form": "Public Health",
+    "description": "Focusing on keeping whole communities healthy through vaccines, clean water, and education.",
+    "scope": "International career opportunities in preventing disease outbreaks and managing health policy.",
+    "sectors": ["World Health Organization (WHO)", "Non-Governmental Organizations (NGOs)", "Health Departments", "Community Health Centers"]
+  },
+  {
+    "code": "BBA",
+    "full_form": "Bachelor of Business Administration",
+    "description": "Learning how businesses are organized, how they lead people, and how they grow.",
+    "scope": "Very flexible degree for jobs in human resources, office management, or starting your own company.",
+    "sectors": ["Corporate Offices", "Human Resources (HR) Departments", "Sales and Marketing", "Management Consultancies"]
+  },
+  {
+    "code": "AF",
+    "full_form": "Accounting & Finance",
+    "description": "Managing money, tracking profits, and making sure taxes and records are correct.",
+    "scope": "Essential for every business to manage their budget, investments, and financial health.",
+    "sectors": ["Commercial Banks", "Audit Firms", "Corporate Finance Departments", "Taxation Offices"]
+  },
+  {
+    "code": "DM",
+    "full_form": "Digital Marketing",
+    "description": "Learning how to sell products using the internet, social media, and online ads.",
+    "scope": "High demand for roles like content creator, social media manager, and search engine expert.",
+    "sectors": ["Social Media Agencies", "Advertising Firms", "E-Commerce Companies", "Brand Management"]
+  },
+  {
+    "code": "FT",
+    "full_form": "Financial Technology",
+    "description": "The study of how technology is changing money, like mobile banking and digital wallets.",
+    "scope": "Emerging field focusing on making payments faster, safer, and easier through apps.",
+    "sectors": ["Financial Technology (Fintech) Companies", "Banking Software Startups", "Payment Gateway Providers", "Digital Banks"]
+  },
+  {
+    "code": "AGRI",
+    "full_form": "Agribusiness",
+    "description": "Treating farming as a business, from growing the food to getting it into stores.",
+    "scope": "Important for managing large farms, food supply chains, and international food export.",
+    "sectors": ["Farming Enterprises", "Food Supply Logistics", "Agricultural Seed Companies", "Export and Import Business"]
+  },
+  {
+    "code": "PSY",
+    "full_form": "Psychology",
+    "description": "Studying the human mind to understand why people feel, think, and act in certain ways.",
+    "scope": "Career paths in mental health counseling, child psychology, or corporate behavior analysis.",
+    "sectors": ["Mental Health Clinics", "Human Resources (HR)", "Educational Counseling", "Rehabilitation Centers"]
+  },
+  {
+    "code": "ENG",
+    "full_form": "English",
+    "description": "Studying literature, writing, and the history of the English language.",
+    "scope": "Diverse roles in teaching, professional writing, editing books, and journalism.",
+    "sectors": ["Schools and Colleges", "Publishing Houses", "Content Writing Agencies", "Journalism"]
+  },
+  {
+    "code": "MEDIA",
+    "full_form": "Mass Communication",
+    "description": "Learning how to share news and stories through TV, radio, newspapers, and the internet.",
+    "scope": "Career options include news reporting, film making, public relations, and digital content.",
+    "sectors": ["Television Networks", "Digital Media Outlets", "Public Relations Firms", "Advertising Agencies"]
+  },
+  {
+    "code": "ART",
+    "full_form": "Fine Arts",
+    "description": "Expressing ideas through drawing, painting, sculpture, and digital art.",
+    "scope": "Professional paths in gallery art, animation, graphic design, and creative teaching.",
+    "sectors": ["Design Studios", "Animation Houses", "Art Galleries", "Advertising and Creative Media"]
+  },
+  {
+    "code": "ARC",
+    "full_form": "Archaeology",
+    "description": "Digging into the past to find artifacts and learn about ancient civilizations.",
+    "scope": "Specialized roles in historical preservation, museum curation, and site excavation.",
+    "sectors": ["Historical Museums", "Heritage Research Centers", "Cultural Departments", "Field Excavations"]
+  },
+  {
+    "code": "LIS",
+    "full_form": "Library & Information Science",
+    "description": "Learning how to organize books, data, and information so people can find them easily.",
+    "scope": "Stable careers in managing school libraries, digital archives, and corporate data centers.",
+    "sectors": ["Public and Private Libraries", "Digital Archives", "Information Centers", "University Libraries"]
+  },
+  {
+    "code": "EC",
+    "full_form": "E-Commerce",
+    "description": "Learning how to build and run stores that sell products online.",
+    "scope": "High demand for managing online storefronts, logistics, and digital customer service.",
+    "sectors": ["Online Shopping Platforms", "E-Commerce Logistics", "Digital Retailers", "Tech Startups"]
+  },
+  {
+    "code": "CLCA",
+    "full_form": "Comparative Literature & Creative Arts",
+    "description": "Comparing stories from different cultures and exploring creative ways to tell them.",
+    "scope": "Roles in international publishing, creative writing, and cultural analysis.",
+    "sectors": ["Book Publishing", "Creative Writing Agencies", "Cultural Research", "Media Houses"]
+  },
+  {
+    "code": "IR",
+    "full_form": "International Relations",
+    "description": "Studying how different countries deal with each other through politics and trade.",
+    "scope": "Pathways to becoming a diplomat, working in foreign policy, or for international groups.",
+    "sectors": ["Foreign Service", "International Organizations", "Political Analysis Firms", "Embassies"]
+  },
+  {
+    "code": "COMM",
+    "full_form": "Commerce",
+    "description": "The study of buying and selling, focusing on trade, markets, and general business.",
+    "scope": "General path into office jobs, retail management, and small business operations.",
+    "sectors": ["General Business Firms", "Retail Industry", "Wholesale Trading", "Office Management"]
+  },
+  {
+    "code": "EDU",
+    "full_form": "Education",
+    "description": "Learning the best ways to teach students and how to manage schools and classrooms.",
+    "scope": "Careers in primary or secondary teaching, school administration, and educational planning.",
+    "sectors": ["Primary and Secondary Schools", "Educational Research", "Academia", "Tutoring Centers"]
+  },
+  {
+    "code": "LAW",
+    "full_form": "Bachelor of Laws",
+    "description": "Studying the rules of the country and how to represent people in legal matters.",
+    "scope": "High demand for lawyers in criminal, corporate, family, and international law.",
+    "sectors": ["District and High Courts", "Corporate Law Firms", "Legal Consultancy", "Government Legal Departments"]
+  },
+  {
+    "code": "LANG",
+    "full_form": "BS Language Studies",
+    "description": "Learning to speak, read, and write foreign languages while understanding their cultures.",
+    "scope": "Opportunities as a translator, interpreter, or working in international tourism.",
+    "sectors": ["Foreign Embassies", "Translation Services", "International Language Schools", "Tourism Industry"],
+    "languages": ["Chinese", "French", "German", "Korean", "Arabic", "Persian", "Turkish", "Japanese", "Spanish", "Russian", "Urdu"]
+  }
+]

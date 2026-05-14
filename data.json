@@ -1,0 +1,104 @@
+{
+  "ICS": {
+    "category": "Computing & Information Technology",
+    "career_paths": [
+      { "degree": "BS Computer Science", "code": "CS", "duration": "4 Years", "focus": "Programming, AI, Algorithms", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Software Engineering", "code": "SE", "duration": "4 Years", "focus": "Software Systems", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Artificial Intelligence", "code": "AI", "duration": "4 Years", "focus": "AI / ML", "eligibility": { "min_percentage": 55 } },
+      { "degree": "BS Data Science", "code": "DS", "duration": "4 Years", "focus": "Data & AI", "eligibility": { "min_percentage": 55 } },
+      { "degree": "BS Cyber Security", "code": "CY", "duration": "4 Years", "focus": "Security", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Information Technology", "code": "IT", "duration": "4 Years", "focus": "Systems", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Software Engineering", "code": "SE", "duration": "4 Years", "focus": "Software", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BS Robotics & Intelligent Systems", "code": "ROB", "duration": "4 Years", "focus": "Robotics", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BS Mathematical Sciences", "code": "MATH", "duration": "4 Years", "focus": "Mathematics", "eligibility": { "min_percentage": 55 } },
+      { "degree": "BS Aviation Management", "code": "AVM", "duration": "4 Years", "focus": "Aviation Business", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Social Sciences & Liberal Arts", "code": "SS", "duration": "4 Years", "focus": "Social Studies", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS Maritime Business & Management", "code": "MBM", "duration": "4 Years", "focus": "Marine Business", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Geology / Geophysics", "code": "GEO", "duration": "4 Years", "focus": "Earth Sciences", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS International Relations", "code": "IR", "duration": "4 Years","focus": "Global Politics & Diplomacy", "eligibility": { "min_percentage": 45 }} ,
+      { "degree": "BS Psychology","code": "PSY", "duration": "4 Years", "focus": "Human Behavior","eligibility": { "min_percentage": 45 }}
+
+    ]
+  },
+
+  "FSc_Pre_Engineering": {
+    "category": "Engineering & Technology",
+    "career_paths": [
+      { "degree": "Mechanical Engineering", "code": "ME", "duration": "4 Years", "focus": "Machines", "eligibility": { "min_percentage": 60 } },
+      { "degree": "Electrical Engineering", "code": "EE", "duration": "4 Years", "focus": "Power", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BS Software Engineering", "code": "SE", "duration": "4 Years", "focus": "Software", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BS Architecture", "code": "ARCH", "duration": "5 Years", "focus": "Design", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Chemical Engineering", "code": "CH", "duration": "4 Years", "focus": "Chemicals", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BE Mechatronics", "code": "MT", "duration": "4 Years", "focus": "Mechatronics", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BE Naval Architecture", "code": "NA", "duration": "4 Years", "focus": "Ships", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BE Geoinformatics Engineering", "code": "GI", "duration": "4 Years", "focus": "GIS", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BS Energy Systems Engineering", "code": "ESE", "duration": "4 Years", "focus": "Energy", "eligibility": { "min_percentage": 55 } }
+    ]
+  },
+
+  "FSc_Pre_Medical": {
+    "category": "Medical & Life Sciences",
+    "career_paths": [
+      { "degree": "MBBS", "code": "MBBS", "duration": "5 Years", "focus": "Medicine", "eligibility": { "min_percentage": 65 } },
+      { "degree": "BDS - Bachelor of Dental Surgery", "code": "BDS", "duration": "4 Years", "focus": "Dentistry", "eligibility": { "min_percentage": 65 } },
+      { "degree": "BS Nursing", "code": "BSN", "duration": "4 Years", "focus": "Nursing & Patient Care", "eligibility": { "min_percentage": 50 } },
+      { "degree": "Pharm-D", "code": "PHARM", "duration": "5 Years", "focus": "Pharmacy", "eligibility": { "min_percentage": 60 } },
+      { "degree": "DPT - Doctor of Physical Therapy", "code": "DPT", "duration": "5 Years", "focus": "Therapy", "eligibility": { "min_percentage": 60 } },
+      { "degree": "BS Biotechnology", "code": "BIO", "duration": "4 Years", "focus": "Biotech", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Medical Lab Technology", "code": "MLT", "duration": "4 Years", "focus": "Lab Diagnostics", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Radiology", "code": "RAD", "duration": "4 Years", "focus": "Medical Imaging", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Public Health", "code": "PH", "duration": "4 Years", "focus": "Health Systems", "eligibility": { "min_percentage": 50 } }
+    ]
+  },
+
+  "ICom": {
+    "category": "Commerce & Business",
+    "career_paths": [
+      { "degree": "BBA - Bachelor of Business Administration", "code": "BBA", "duration": "4 Years", "focus": "Business", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Accounting & Finance", "code": "AF", "duration": "4 Years", "focus": "Finance", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BS Digital Marketing", "code": "DM", "duration": "4 Years", "focus": "Marketing", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS FinTech", "code": "FT", "duration": "4 Years", "focus": "Finance + Tech", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BBA Agribusiness", "code": "AGRI", "duration": "4 Years", "focus": "Agri Business", "eligibility": { "min_percentage": 50 } }
+    ]
+  },
+
+  "FA": {
+    "category": "Arts & Humanities",
+    "career_paths": [
+      { "degree": "BS Psychology", "code": "PSY", "duration": "4 Years", "focus": "Behavior", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS English", "code": "ENG", "duration": "4 Years", "focus": "Language", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS Mass Communication", "code": "MEDIA", "duration": "4 Years", "focus": "Media", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS Fine Arts", "code": "ART", "duration": "4 Years", "focus": "Arts", "eligibility": { "min_percentage": 40 } },
+      { "degree": "BS Archaeology", "code": "ARC", "duration": "4 Years", "focus": "History", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS Disaster Management", "code": "DM", "duration": "4 Years", "focus": "Disaster", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS Library & Information Science", "code": "LIS", "duration": "4 Years", "focus": "Library", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BS E-Commerce", "code": "EC", "duration": "4 Years", "focus": "Ecom", "eligibility": { "min_percentage": 45 } },
+      { "degree": "BA Comparative Literature & Creative Arts", "code": "CLCA", "duration": "4 Years", "focus": "Literature", "eligibility": { "min_percentage": 45 } },
+      {
+  "degree": "BS Language Studies",
+  "code": "LANG",
+  "duration": "4 Years",
+  "focus": "Foreign Languages & Linguistics",
+  "eligibility": { "min_percentage": 45 },
+  "sub_languages": [
+    "Spanish",
+    "French",
+    "German",
+    "Arabic",
+    "Chinese",
+    "Japanese",
+    "Russian",
+    "Turkish"
+  ]
+}
+    ]
+  },
+
+  "LAW": {
+    "category": "Law & Legal Studies",
+    "career_paths": [
+      { "degree": "LLB", "code": "LAW", "duration": "5 Years", "focus": "Legal Studies", "eligibility": { "min_percentage": 50 } },
+      { "degree": "BA-LLB", "code": "LAW", "duration": "5 Years", "focus": "Law + Arts", "eligibility": { "min_percentage": 50 } }
+    ]
+  }
+}

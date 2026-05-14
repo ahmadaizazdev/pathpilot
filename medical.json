@@ -1,0 +1,122 @@
+[
+  {
+    "id": "aku",
+    "name": "Aga Khan University",
+    "type": "Private",
+    "field": "Medical",
+    "tier": "S",
+    "city": "Karachi",
+    "hospital": "Aga Khan University Hospital",
+    "programs": ["MBBS", "BSN", "BDS"],
+    "entry_test": "AKU Entry Test",
+    "website": "https://www.aku.edu"
+  },
+  {
+    "id": "kemu",
+    "name": "King Edward Medical University",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "S",
+    "city": "Lahore",
+    "hospital": "Mayo Hospital",
+    "programs": ["MBBS", "BDS", "DPT", "MLT"],
+    "entry_test": "MDCAT",
+    "website": "https://kemu.edu.pk"
+  },
+  {
+    "id": "aimc",
+    "name": "Allama Iqbal Medical College",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "A",
+    "city": "Lahore",
+    "hospital": "Jinnah Hospital",
+    "programs": ["MBBS", "DPT", "BSN"],
+    "entry_test": "MDCAT",
+    "website": "https://aimc.edu.pk"
+  },
+  {
+    "id": "rmu",
+    "name": "Rawalpindi Medical University",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "A",
+    "city": "Rawalpindi",
+    "hospital": "Holy Family / Benazir Bhutto / DHQ Hospital",
+    "programs": ["MBBS", "BDS"],
+    "entry_test": "MDCAT",
+    "website": "https://rmur.edu.pk"
+  },
+  {
+    "id": "nums-amc",
+    "name": "Army Medical College (NUMS)",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "S",
+    "city": "Rawalpindi",
+    "hospital": "MH / CMH Rawalpindi",
+    "programs": ["MBBS", "BDS"],
+    "entry_test": "NUMS Entry Test",
+    "website": "https://numspak.edu.pk"
+  },
+  {
+    "id": "jsmu",
+    "name": "Jinnah Sindh Medical University",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "A",
+    "city": "Karachi",
+    "hospital": "Jinnah Postgraduate Medical Centre (JPMC)",
+    "programs": ["MBBS", "BDS", "PHARM"],
+    "entry_test": "MDCAT",
+    "website": "https://www.jsmu.edu.pk"
+  },
+  {
+    "id": "sims",
+    "name": "Services Institute of Medical Sciences",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "A",
+    "city": "Lahore",
+    "hospital": "Services Hospital",
+    "programs": ["MBBS"],
+    "entry_test": "MDCAT",
+    "website": "https://sims.edu.pk"
+  },
+  {
+    "id": "szabmu-pims",
+    "name": "SZABMU / Federal Medical College",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "A",
+    "city": "Islamabad",
+    "hospital": "Pakistan Institute of Medical Sciences (PIMS)",
+    "programs": ["MBBS", "BDS", "BSN"],
+    "entry_test": "MDCAT",
+    "website": "https://www.szabmu.edu.pk"
+  },
+  {
+    "id": "shifa",
+    "name": "Shifa College of Medicine",
+    "type": "Private",
+    "field": "Medical",
+    "tier": "A",
+    "city": "Islamabad",
+    "hospital": "Shifa International Hospital",
+    "programs": ["MBBS", "BDS", "PHARM"],
+    "entry_test": "MDCAT / Shifa Test",
+    "website": "https://shifacollege.edu"
+  },
+  {
+    "id": "fjmu",
+    "name": "Fatima Jinnah Medical University",
+    "type": "Public",
+    "field": "Medical",
+    "tier": "A",
+    "city": "Lahore",
+    "hospital": "Sir Ganga Ram Hospital",
+    "programs": ["MBBS"],
+    "entry_test": "MDCAT",
+    "website": "https://fjmu.edu.pk"
+  }
+]

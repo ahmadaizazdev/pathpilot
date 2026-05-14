@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PathPilot — Career Guidance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="main.css">
+  
+</head>
+<!-- PREMIUM DETAIL WINDOW -->
+<div id="detailModal" class="detail-modal hidden">
+  <div class="detail-modal-content">
+    <div id="detailContent"></div>
+  </div>
+</div>
+<body>
+
+
+
+<div class="page">
+
+  <header>
+    <div class="logo-badge">
+      <span class="logo-dot"></span>
+      Pakistan's 1st Career Guiding Platform.
+    </div>
+    <h1>Path<span>Pilot</span></h1>
+    <p class="subtitle">Discover your ideal career path — A Project by Ahmad Aizaz.</p>
+  </header>
+
+  <div class="glass-card">
+    <p class="field-label">ChooseYour Academic Background</p>
+    <div class="select-wrapper">
+      <select id="background">
+  <option value="ICS">ICS - Intermediate in Computer Science</option>
+  <option value="FSc_Pre_Medical">Pre-Medical — Biology</option>
+  <option value="FSc_Pre_Engineering">Pre-Engineering — Engineering</option>
+  <option value="ICom">I.Com - Intermediate in Commerce</option>
+  <option value="FA">FA - Intermediate in Arts / Humanities</option>
+  <option value="LAW">LAW (LLB Track) — Bachelor of Laws</option>
+</select>
+    </div>
+    <input 
+  type="number" 
+  id="marks" 
+  placeholder="Enter your percentage (e.g. 75)" 
+  style="margin-bottom: 15px; width: 100%; padding: 10px; border-radius: 10px;"
+ />
+    <button onclick="findCareer()">Explore Career Paths →</button>
+  </div>
+
+  <div id="results"></div>
+  <div id="universities"></div>
+
+</div>
+
+<!-- UI enhancement layer — wraps the raw output from app.js -->
+<script>
+  // Icons map for career names (keyword → emoji)
+  const iconMap = [
+    [/doctor|medic|surgeon|physician/i, '🩺'],
+    [/engineer|software|computer|IT|tech|developer|programming/i, '💻'],
+    [/business|commerce|finance|account|bank|MBA/i, '📊'],
+    [/law|legal|advocate|lawyer/i, '⚖️'],
+    [/design|art|creative|media|graphic/i, '🎨'],
+    [/teach|education|professor/i, '📚'],
+    [/psy|mental/i, '🧠'],
+    [/pharm/i, '💊'],
+    [/nurse|nursing/i, '🏥'],
+    [/archi/i, '🏛️'],
+    [/econom/i, '📈'],
+    [/journal|media|news/i, '📰'],
+    [/manage|admin/i, '🗂️'],
+    [/data|analytics|science/i, '🔬'],
+    [/security|cyber/i, '🔐'],
+    [/pilot|aviation/i, '✈️'],
+    [/music|perform|theater/i, '🎭'],
+    [/agriculture|farm/i, '🌾'],
+  ];
+
+  function getIcon(name) {
+    for (const [re, icon] of iconMap) {
+      if (re.test(name)) return icon;
+    }
+    return '🚀';
+  }
+
+  function renderCards(links) {
+    const unique = [];
+    const seen = new Set();
+    links.forEach(el => {
+      const text = (el.innerText || el.textContent || '').trim();
+      const onclick = el.getAttribute('onclick') || '';
+      if (text && !seen.has(text)) {
+        seen.add(text);
+        unique.push({ text, onclick, el });
+      }
+    });
+
+    if (!unique.length) return;
+
+    let html = `<p class="results-title">Available Paths (${unique.length})</p>`;
+    unique.forEach(({ text, onclick }) => {
+      const icon = getIcon(text);
+      const safeOnclick = onclick ? `onclick="${onclick.replace(/"/g,"'")}"` : '';
+      html += `
+        <div class="career-card" ${safeOnclick}>
+          <div class="career-icon">${icon}</div>
+          <div>
+            <div class="career-name">${text}</div>
+            <div class="career-hint">Tap to explore details</div>
+          </div>
+          <span class="career-arrow">›</span>
+        </div>`;
+    });
+
+    resultsDiv.innerHTML = html;
+  }
+
+  function renderDetail(temp, text) {
+    // Extract lines of text
+    const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
+    if (!lines.length) return;
+
+    const title = lines[0];
+    const details = lines.slice(1);
+
+    // Find any onclick for back button
+    const backEl = temp.querySelector('button, [onclick*="back"], [onclick*="Back"]');
+    const backOnclick = backEl ? backEl.getAttribute('onclick') : '';
+
+    // Parse key: value pairs
+    const rows = details.filter(l => l.includes(':') || l.length > 3);
+
+    let rowsHTML = rows.map(row => {
+      if (row.includes(':')) {
+        const colonIdx = row.indexOf(':');
+        const key = row.slice(0, colonIdx).trim();
+        const val = row.slice(colonIdx + 1).trim();
+        return `<div class="detail-row">
+          <span class="detail-row-label">${key}</span>
+          <span class="detail-row-value">${val}</span>
+        </div>`;
+      }
+      return `<div class="detail-row">
+        <span class="detail-row-value">${row}</span>
+      </div>`;
+    }).join('');
+
+    const backBtnHTML = backOnclick
+      ? `<button class="back-btn" onclick="${backOnclick.replace(/"/g,"'")}">← Back to Careers</button>`
+      : `<button class="back-btn" onclick="document.getElementById('results').innerHTML=''">← Back to Careers</button>`;
+
+    resultsDiv.innerHTML = `
+      <div class="detail-card">
+        <div class="detail-tag">✦ Career Detail</div>
+        <div class="detail-title">${title}</div>
+        <div class="detail-grid">${rowsHTML}</div>
+        ${backBtnHTML}
+      </div>`;
+  }
+
+  function renderFallback(temp) {
+    resultsDiv.innerHTML = `
+      <div class="detail-card">
+        ${temp.innerHTML}
+      </div>`;
+  }
+</script>
+
+<script src="app.js"></script>
+</body>
+</html>
