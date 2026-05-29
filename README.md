@@ -13,6 +13,7 @@ The project aims to simplify the career planning process for students who are of
 * Responsive design for desktop and mobile
 * Smooth navigation and animations
 * Beginner-friendly and easy-to-use interface
+---
 
 ## Purpose of the Project
 
