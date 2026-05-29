@@ -6,7 +6,7 @@ The project aims to simplify the career planning process for students who are of
 
 ## Features
 
-* Career exploration and guidance
+* Career exploration and guidance.
 * University and degree program information
 * Interactive and modern UI/UX
 * Smart recommendation-based experience
